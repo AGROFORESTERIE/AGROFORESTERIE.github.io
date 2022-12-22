@@ -31,7 +31,7 @@ navigation:
   - title: About
     url: /about
   - title: News
-    url: /news/news.html 
+    url: /news/
   - title: Contact
     url: /contact
 
