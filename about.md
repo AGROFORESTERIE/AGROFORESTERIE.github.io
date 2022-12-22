@@ -5,7 +5,9 @@ title: About AGROFORESTRY Project
 
 <div class="post">
 	<h1 class="pageTitle">About AGROFORESTRY</h1>
-	<img src="{{ '/assets/img/touring.jpg' }}" alt="">
+	<img src="{{ '/assets/img/iconmonstr-construction-1-240.png' }}" alt="">
+	<p class="intro">Work in progress</p>
+	<!-- 
 	<p class="intro">AGROFORESTRY is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
 	<p>AGROFORESTRY was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
 	<h2>Features</h2>
@@ -21,4 +23,5 @@ title: About AGROFORESTRY Project
   		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
   		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
   	</ul>
+	-->
 </div>
