@@ -1,0 +1,189 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:agrovoc="http://aims.fao.org/aos/agrovoc/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:sf="http://www.opengis.net/ont/sf#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:bfo="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sosa="http://www.w3.org/ns/sosa/"
+    xmlns:afy="http://www.afy.fr/Agroforestry/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:ssn="http://www.w3.org/ns/ssn/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:afv="http://www.afy.fr/AgroforestryVoc/"
+    xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/">
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/SimpleElement">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+          <owl:Class>
+            <owl:complementOf>
+              <owl:Class rdf:about="http://www.afy.fr/Agroforestry/CompositeElement"/>
+            </owl:complementOf>
+          </owl:Class>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/CompositeElement"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/PropertyOfElement">
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Term"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/propertyOf"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Resource"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasSubject"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Term">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Resource"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/RelationshipBetweenElements">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/inRelationshipWith"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.afy.fr/Agroforestry/PropertyOfElement"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasObject"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Resource">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://www.afy.fr/Agroforestry/Term"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+    <rdfs:label xml:lang="en">continuant</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/CompositeElement">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasElement"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasElement"/>
+            </owl:onProperty>
+            <owl:allValuesFrom>
+              <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+            </owl:allValuesFrom>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasElement"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://www.afy.fr/Agroforestry/StructuralElement"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasRelationship"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://www.afy.fr/Agroforestry/RelationshipBetweenElements"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:comment xml:lang="fr">StructuralElement est l'ensemble de toutes entités présentent au sein d'une structure agroforestiére</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.afy.fr/Agroforestry/Resource"/>
+    <owl:disjointWith rdf:resource="http://www.afy.fr/Agroforestry/Term"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasProperty"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://www.afy.fr/Agroforestry/PropertyOfElement"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasElement">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/elementOf"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasRelationship">
+    <owl:inverseOf rdf:resource="http://www.afy.fr/Agroforestry/inRelationshipWith"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.afy.fr/Agroforestry/hasProperty">
+    <owl:inverseOf rdf:resource="http://www.afy.fr/Agroforestry/propertyOf"/>
+  </owl:ObjectProperty>
+</rdf:RDF>

@@ -1,0 +1,188 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:bfo="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sosa="http://www.w3.org/ns/sosa/"
+    xmlns:afy="http://www.afy.fr/Agroforestry/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:res="http://www.afy.fr/Restinclieres/"
+    xmlns:ssn="http://www.w3.org/ns/ssn/"
+    xmlns:afv="http://www.afy.fr/AgroforestryVoc/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class>
+    <owl:intersectionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type"/>
+        </owl:onProperty>
+        <owl:hasValue>
+          <afy:Term rdf:about="http://www.afy.fr/AgroforestryVoc/caf_27"/>
+        </owl:hasValue>
+      </owl:Restriction>
+    </owl:intersectionOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+            <owl:hasValue>
+              <afy:Term rdf:about="http://www.afy.fr/AgroforestryVoc/caf_30"/>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/PropertyOfElement"/>
+  <owl:Class rdf:about="http://www.afy.fr/Agroforestry/Term"/>
+  <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation"/>
+  <owl:Class>
+    <owl:intersectionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+        <owl:hasValue>
+          <afy:Term rdf:about="http://www.afy.fr/AgroforestryVoc/caf_28"/>
+        </owl:hasValue>
+      </owl:Restriction>
+    </owl:intersectionOf>
+    <rdfs:subClassOf>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+          <owl:Restriction>
+            <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+            <owl:hasValue>
+              <afy:Term rdf:about="http://www.afy.fr/AgroforestryVoc/caf_32"/>
+            </owl:hasValue>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Restinclieres/ForestTree">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Restinclieres/Tree"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+                <owl:hasValue rdf:resource="http://www.afy.fr/AgroforestryVoc/caf_27"/>
+              </owl:Restriction>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Restinclieres/Tree">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/StructuralElement"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                  <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation"/>
+                  <owl:Restriction>
+                    <owl:someValuesFrom>
+                      <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/PropertyOfElement"/>
+                          <owl:Restriction>
+                            <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+                            <owl:hasValue>
+                              <afy:Term rdf:about="http://aims.fao.org/aos/agrovoc/c_34790"/>
+                            </owl:hasValue>
+                          </owl:Restriction>
+                        </owl:intersectionOf>
+                      </owl:Class>
+                    </owl:someValuesFrom>
+                    <owl:onProperty>
+                      <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observedProperty"/>
+                    </owl:onProperty>
+                  </owl:Restriction>
+                </owl:intersectionOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+            </owl:onProperty>
+          </owl:Restriction>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                  <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation"/>
+                  <owl:Restriction>
+                    <owl:someValuesFrom>
+                      <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                          <owl:Class rdf:about="http://www.afy.fr/Agroforestry/PropertyOfElement"/>
+                          <owl:Restriction>
+                            <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+                            <owl:hasValue>
+                              <afy:Term rdf:about="http://www.cropontology.org/rdf/CO_357:1000042"/>
+                            </owl:hasValue>
+                          </owl:Restriction>
+                        </owl:intersectionOf>
+                      </owl:Class>
+                    </owl:someValuesFrom>
+                    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+                  </owl:Restriction>
+                </owl:intersectionOf>
+              </owl:Class>
+            </owl:someValuesFrom>
+            <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.afy.fr/Restinclieres/AgroforestryTree">
+    <owl:equivalentClass>
+      <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="http://www.afy.fr/Restinclieres/Tree"/>
+          <owl:Restriction>
+            <owl:someValuesFrom>
+              <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+                <owl:hasValue>
+                  <afy:Term rdf:about="http://www.afy.fr/AgroforestryVoc/caf_13"/>
+                </owl:hasValue>
+              </owl:Restriction>
+            </owl:someValuesFrom>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </owl:onProperty>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/hasPart"/>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/partOf"/>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    </owl:inverseOf>
+    <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/hasPart"/>
+    <rdfs:label xml:lang="en">has part</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/partOf"/>
+    <rdfs:label xml:lang="en">part of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </owl:ObjectProperty>
+</rdf:RDF>
