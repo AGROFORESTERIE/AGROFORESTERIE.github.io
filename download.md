@@ -12,7 +12,7 @@ title: Download
 		<li><a href="{{ site.url }}/assets/download/ModeleAgroforestryDiagramFocusAgroforestry.pdf" title= "Agroforestry ontology" download>The "Agroforestry" ontology</a></li>
 		<li><a href="{{ site.url }}/assets/download/ModeleAgroforestryDiagramRelationBetwenOntology.pdf" title="Integrated class diagram" download>Integrated class diagram of the "Agroforestry" ontology</a></li>
   	</ul>
-	<p>"Agroforestry" ontology in RDF format. </p>
+	<p>"Agroforestry" ontology in RDF format.</p>
 	<h2></h2>
 	<ul>
 		<li><a href="{{ site.url }}/assets/download/AgroforestryTbox.owl" title= "Agroforestry ontology" download>The "Agroforestry" ontology (Tbox)</a></li>
