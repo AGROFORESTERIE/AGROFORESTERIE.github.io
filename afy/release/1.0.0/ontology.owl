@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/afy#"
+     xml:base="https://w3id.org/afy"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocab="https://w3id.org/widoco/vocab#"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://w3id.org/afy">
+        <owl:versionIRI rdf:resource="https://w3id.org/afy/1.0.0"/>
+        <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+        <dc:description xml:lang="fr">Ontologie des systèmes agroforestiers</dc:description>
+        <dc:description xml:lang="en">Ontology of agroforestry systems</dc:description>
+        <dc:title xml:lang="en">AFY</dc:title>
+        <terms:abstract xml:lang="en">In order for a semantic system dedicated to agroforestry developments to be shared by all agroforestry stakeholders, and even by stakeholders in other fields given the systemic nature of agroforestry, it seems essential to maintain a high level of generality in the definition of the ontology. The vision adopted is as follows: an agroforestry plot evolves over time and space and has biotic and abiotic sub-parts, which are considered as simple or decomposable elements with intrinsic properties (specific characteristics) that form interrelationships of various kinds. We were particularly interested in the spatial relationships that underlie the different developments specific to each plot. Every element, property or relationship in the ontology can potentially be enriched by one or more terms/concepts from terminological ontologies. These terms, used to describe each element of an agroforestry arrangement, as well as their properties and interrelationships, involve either the reuse of existing terminological ontologies.</terms:abstract>
+        <terms:abstract xml:lang="fr">Pour qu’un système sémantique, dédié aux aménagements agroforestiers, soit partagé par l’ensemble des acteurs de l’agroforesterie, voire par les acteurs d’autres domaines si l’on considère la nature systémique de l’agroforesterie, il semble essentiel de maintenir un haut niveau de généricité dans la définition de l’ontologie. La vision retenue est la suivante : une parcelle agroforestière évolue dans le temps et dans l’espace, et a pour sous-parties, des éléments biotiques et abiotiques, qui sont envisagés comme des éléments simples ou décomposables, qui possèdent des propriétés intrinsèques (caractéristiques propres), et qui nouent des interrelations de différentes natures. Nous nous sommes intéressés en particulier, aux relations spatiales qui sous-tendent les différents aménagements propres à chaque parcelle.Tout élément, propriété ou relation de l’ontologie est potentiellement enrichi par un ou plusieurs termes/concepts issus d’ontologies terminologiques. Ces termes utilisés pour qualifier chaque élément d’un aménagement agroforestier, ainsi que leurs propriétés et leurs inter-relations, impliquent soit la réutilisation d’ontologies terminologiques existantes.</terms:abstract>
+        <terms:created xml:lang="fr">Le 5 Octobre 2021</terms:created>
+        <terms:created xml:lang="en">October 5th, 2021</terms:created>
+        <terms:created>&quot;2021-10-05&quot;^^xsd:date</terms:created>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <bibo:doi rdf:resource="https://doi.org/XXXXXXXXXXXXXXXX"/>
+        <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
+        <vann:preferredNamespacePrefix xml:lang="en">afy</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/afy</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">An ontology designed to define the different types of agroforestry systems..</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une ontologie conçue pour définir les différents types d&apos;aménagements agroforestiers.</rdfs:comment>
+        <rdfs:label>Ontology of agroforestry systems</rdfs:label>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <foaf:fundedBy rdf:resource="https://www.fondationdefrance.org/fr/"/>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Isabelle Mougenot , Alexia Stokes; ; DOI: XXXXXXXXXXXXXXXXX</schema:citation>
+        <schema:creator rdf:nodeID="genid1"/>
+        <schema:creator rdf:nodeID="genid3"/>
+        <schema:creator rdf:nodeID="genid5"/>
+        <schema:funding rdf:resource="https://www.fondationdefrance.org/fr/"/>
+        <vocab:introduction xml:lang="fr">Nous souhaitons proposer un modèle de connaissances qui fournira un cadre unificateur pour structurer les données et les connaissances 
+		en agroforesterie, simplifiant ainsi la construction de bases de connaissances dans ce domaine.
+		Les données issues des observations jouent un rôle clé dans la compréhension des mécanismes régissant les systèmes agroforestiers et peuvent également établir leur
+		justification par comparaison avec les systèmes agricoles d&apos;une part, et les systèmes forestiers d&apos;autre part.
+		L&apos;objectif est donc également de pouvoir mettre en commun les informations provenant de plusieurs bases de connaissances construites à partir de systèmes agroforestiers
+		de même type ou de types différents.</vocab:introduction>
+        <vocab:introduction xml:lang="en">We wish to propose a knowledge model that will provide a unifying framework for structuring agroforestry data and knowledge,
+		thereby simplifying the construction of knowledge bases in this field.
+		Data from observations play a key role in understanding the mechanisms governing agroforestry systems and can also establish their justification by comparison
+		with agricultural systems on the one hand and forestry systems on the other.
+		The aim is therefore also to be able to pool information from several knowledge bases built from agroforestry systems of the same or different types.</vocab:introduction>
+        <vocab:rdfxmlSerialization rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/afy/ontology.xml</vocab:rdfxmlSerialization>
+    </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid2"/>
+        <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
+        <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
+        <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
+        <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid4"/>
+        <schema:name xml:lang="en">Isabelle Mougenot</schema:name>
+        <schema:name xml:lang="fr">Isabelle Mougenot</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-1287-3269"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid6"/>
+        <schema:name xml:lang="en">Alexia Stokes</schema:name>
+        <schema:name xml:lang="fr">Alexia Stokes</schema:name>
+        <schema:url rdf:resource="https://0000-0002-2276-0911"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>University of Montpellier, INRAE, France</foaf:name>
+        <schema:url>https://www.umontpellier.fr/</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>University of Montpellier, France</foaf:name>
+        <schema:url>https://www.umontpellier.fr/</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>University of Montpellier, INRAE France</foaf:name>
+        <schema:url>https://www.umontpellier.fr/</schema:url>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#memberOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/org#memberOf"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/fundedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/fundedBy"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://schema.org/citation -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/citation"/>
+    
+
+
+    <!-- https://schema.org/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/creator"/>
+    
+
+
+    <!-- https://schema.org/familyName -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/familyName"/>
+    
+
+
+    <!-- https://schema.org/funding -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- https://schema.org/url -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/url"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#introduction -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#introduction"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#rdfxmlSerialization -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#rdfxmlSerialization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type"/>
+    
+
+
+    <!-- https://w3id.org/afy/elementOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/elementOf"/>
+    
+
+
+    <!-- https://w3id.org/afy/hasElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/hasElement">
+        <owl:inverseOf rdf:resource="https://w3id.org/afy/elementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/afy/hasObject -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/hasObject"/>
+    
+
+
+    <!-- https://w3id.org/afy/hasProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/hasProperty">
+        <owl:inverseOf rdf:resource="https://w3id.org/afy/propertyOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/afy/hasRelationship -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/hasRelationship">
+        <owl:inverseOf rdf:resource="https://w3id.org/afy/inRelationshipWith"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/afy/hasSubject -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/hasSubject"/>
+    
+
+
+    <!-- https://w3id.org/afy/inRelationshipWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/inRelationshipWith"/>
+    
+
+
+    <!-- https://w3id.org/afy/propertyOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/afy/propertyOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:label xml:lang="fr">continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+
+    <owl:Class rdf:about="http://schema.org/Person"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Feature -->
+
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- https://w3id.org/afy/CompositeElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/CompositeElement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/afy/StructuralElement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/afy/hasElement"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/afy/StructuralElement"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/afy/hasElement"/>
+                        <owl:allValuesFrom rdf:resource="https://w3id.org/afy/StructuralElement"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/StructuralElement"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/afy/SimpleElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/PropertyOfElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/PropertyOfElement">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/Resource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/hasSubject"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/StructuralElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/propertyOf"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/afy/StructuralElement"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/afy/Term"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/RelationshipBetweenElements -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/RelationshipBetweenElements">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/PropertyOfElement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/hasObject"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/StructuralElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/inRelationshipWith"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/Resource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/Resource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/Term"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/SimpleElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/SimpleElement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/afy/StructuralElement"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://w3id.org/afy/CompositeElement"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/StructuralElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/StructuralElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/StructuralElement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/Resource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/hasElement"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/StructuralElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/hasProperty"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/PropertyOfElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/afy/hasRelationship"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/afy/RelationshipBetweenElements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/afy/Term"/>
+        <rdfs:comment xml:lang="fr">StructuralElement est l&apos;ensemble de toutes entités présentent au sein d&apos;une structure agroforestiére.</rdfs:comment>
+        <rdfs:comment xml:lang="en">StructuralElement is the set of all entities present within an agroforestry structure.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afy/Term -->
+
+
+    <owl:Class rdf:about="https://w3id.org/afy/Term">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/afy/Resource"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
