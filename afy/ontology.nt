@@ -1,0 +1,292 @@
+<https://w3id.org/afy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/afy> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/afy/1.0.0> .
+<https://w3id.org/afy> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2000/01/rdf-schema> .
+<https://w3id.org/afy> <http://purl.org/dc/elements/1.1/description> "Ontologie des systèmes agroforestiers"@fr .
+<https://w3id.org/afy> <http://purl.org/dc/elements/1.1/description> "Ontology of agroforestry systems"@en .
+<https://w3id.org/afy> <http://purl.org/dc/elements/1.1/title> "AFY"@en .
+<https://w3id.org/afy> <http://purl.org/dc/terms/abstract> "In order for a semantic system dedicated to agroforestry developments to be shared by all agroforestry stakeholders, and even by stakeholders in other fields given the systemic nature of agroforestry, it seems essential to maintain a high level of generality in the definition of the ontology. The vision adopted is as follows: an agroforestry plot evolves over time and space and has biotic and abiotic sub-parts, which are considered as simple or decomposable elements with intrinsic properties (specific characteristics) that form interrelationships of various kinds. We were particularly interested in the spatial relationships that underlie the different developments specific to each plot. Every element, property or relationship in the ontology can potentially be enriched by one or more terms/concepts from terminological ontologies. These terms, used to describe each element of an agroforestry arrangement, as well as their properties and interrelationships, involve either the reuse of existing terminological ontologies."@en .
+<https://w3id.org/afy> <http://purl.org/dc/terms/abstract> "Pour qu’un système sémantique, dédié aux aménagements agroforestiers, soit partagé par l’ensemble des acteurs de l’agroforesterie, voire par les acteurs d’autres domaines si l’on considère la nature systémique de l’agroforesterie, il semble essentiel de maintenir un haut niveau de généricité dans la définition de l’ontologie. La vision retenue est la suivante : une parcelle agroforestière évolue dans le temps et dans l’espace, et a pour sous-parties, des éléments biotiques et abiotiques, qui sont envisagés comme des éléments simples ou décomposables, qui possèdent des propriétés intrinsèques (caractéristiques propres), et qui nouent des interrelations de différentes natures. Nous nous sommes intéressés en particulier, aux relations spatiales qui sous-tendent les différents aménagements propres à chaque parcelle.Tout élément, propriété ou relation de l’ontologie est potentiellement enrichi par un ou plusieurs termes/concepts issus d’ontologies terminologiques. Ces termes utilisés pour qualifier chaque élément d’un aménagement agroforestier, ainsi que leurs propriétés et leurs inter-relations, impliquent soit la réutilisation d’ontologies terminologiques existantes."@fr .
+<https://w3id.org/afy> <http://purl.org/dc/terms/created> "Le 5 Octobre 2021"@fr .
+<https://w3id.org/afy> <http://purl.org/dc/terms/created> "October 5th, 2021"@en .
+<https://w3id.org/afy> <http://purl.org/dc/terms/created> "\"2021-10-05\"^^xsd:date" .
+<https://w3id.org/afy> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/afy> <http://purl.org/ontology/bibo/doi> <https://doi.org/XXXXXXXXXXXXXXXX> .
+<https://w3id.org/afy> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> .
+<https://w3id.org/afy> <http://purl.org/vocab/vann/preferredNamespacePrefix> "afy"@en .
+<https://w3id.org/afy> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/afy" .
+<https://w3id.org/afy> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology designed to define the different types of agroforestry systems.."@en .
+<https://w3id.org/afy> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ontologie conçue pour définir les différents types d'aménagements agroforestiers."@fr .
+<https://w3id.org/afy> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology of agroforestry systems" .
+<https://w3id.org/afy> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<https://w3id.org/afy> <http://xmlns.com/foaf/0.1/fundedBy> <https://www.fondationdefrance.org/fr/> .
+<https://w3id.org/afy> <https://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Isabelle Mougenot , Alexia Stokes; ; DOI: XXXXXXXXXXXXXXXXX"@en .
+<https://w3id.org/afy> <https://schema.org/creator> _:genid1 .
+_:genid1 <https://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
+_:genid1 <https://schema.org/name> "Raphaël Conde Salazar"@fr .
+_:genid1 <https://schema.org/name> "Raphael Conde Salazar"@en .
+_:genid1 <https://schema.org/familyName> "Conde Salazar"@fr .
+_:genid1 <https://schema.org/familyName> "Conde Salazar"@en .
+_:genid1 <http://www.w3.org/ns/org#memberOf> _:genid2 .
+_:genid2 <https://schema.org/url> "https://www.umontpellier.fr/" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE, France" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy> <https://schema.org/creator> _:genid3 .
+_:genid3 <https://schema.org/url> <https://orcid.org/0000-0002-1287-3269> .
+_:genid3 <https://schema.org/name> "Isabelle Mougenot"@fr .
+_:genid3 <https://schema.org/name> "Isabelle Mougenot"@en .
+_:genid3 <http://www.w3.org/ns/org#memberOf> _:genid4 .
+_:genid4 <https://schema.org/url> "https://www.umontpellier.fr/" .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, France" .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/afy> <https://schema.org/creator> _:genid5 .
+_:genid5 <https://schema.org/url> <https://0000-0002-2276-0911> .
+_:genid5 <https://schema.org/name> "Alexia Stokes"@fr .
+_:genid5 <https://schema.org/name> "Alexia Stokes"@en .
+_:genid5 <http://www.w3.org/ns/org#memberOf> _:genid6 .
+_:genid6 <https://schema.org/url> "https://www.umontpellier.fr/" .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "University of Montpellier, INRAE France" .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/afy> <https://schema.org/funding> <https://www.fondationdefrance.org/fr/> .
+<https://w3id.org/afy> <https://w3id.org/widoco/vocab#introduction> "Nous souhaitons proposer un modèle de connaissances qui fournira un cadre unificateur pour structurer les données et les connaissances \n\t\ten agroforesterie, simplifiant ainsi la construction de bases de connaissances dans ce domaine.\n\t\tLes données issues des observations jouent un rôle clé dans la compréhension des mécanismes régissant les systèmes agroforestiers et peuvent également établir leur\n\t\tjustification par comparaison avec les systèmes agricoles d'une part, et les systèmes forestiers d'autre part.\n\t\tL'objectif est donc également de pouvoir mettre en commun les informations provenant de plusieurs bases de connaissances construites à partir de systèmes agroforestiers\n\t\tde même type ou de types différents."@fr .
+<https://w3id.org/afy> <https://w3id.org/widoco/vocab#introduction> "We wish to propose a knowledge model that will provide a unifying framework for structuring agroforestry data and knowledge,\n\t\tthereby simplifying the construction of knowledge bases in this field.\n\t\tData from observations play a key role in understanding the mechanisms governing agroforestry systems and can also establish their justification by comparison\n\t\twith agricultural systems on the one hand and forestry systems on the other.\n\t\tThe aim is therefore also to be able to pool information from several knowledge bases built from agroforestry systems of the same or different types."@en .
+<https://w3id.org/afy> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "https://w3id.org/afy/ontology.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/org#memberOf
+<http://www.w3.org/ns/org#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/fundedBy
+<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/citation
+<https://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/creator
+<https://schema.org/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/familyName
+<https://schema.org/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/funding
+<https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/url
+<https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#introduction
+<https://w3id.org/widoco/vocab#introduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/afy/elementOf
+<https://w3id.org/afy/elementOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/afy/hasElement
+<https://w3id.org/afy/hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/afy/hasElement> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/afy/elementOf> .
+# 
+# https://w3id.org/afy/hasObject
+<https://w3id.org/afy/hasObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/afy/hasProperty
+<https://w3id.org/afy/hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/afy/hasProperty> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/afy/propertyOf> .
+# 
+# https://w3id.org/afy/hasRelationship
+<https://w3id.org/afy/hasRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/afy/hasRelationship> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/afy/inRelationshipWith> .
+# 
+# https://w3id.org/afy/hasSubject
+<https://w3id.org/afy/hasSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/afy/inRelationshipWith
+<https://w3id.org/afy/inRelationshipWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/afy/propertyOf
+<https://w3id.org/afy/propertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000002
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "continuant"@en .
+<http://purl.obolibrary.org/obo/BFO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "continuant"@fr .
+# 
+# http://schema.org/Person
+# 
+# http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/sosa/FeatureOfInterest
+<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/ssn/Property
+<http://www.w3.org/ns/ssn/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Organization
+# 
+# https://w3id.org/afy/CompositeElement
+<https://w3id.org/afy/CompositeElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/CompositeElement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/StructuralElement> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasElement> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/afy/StructuralElement> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasElement> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/afy/StructuralElement> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/afy/CompositeElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/StructuralElement> .
+<https://w3id.org/afy/CompositeElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/afy/SimpleElement> .
+# 
+# https://w3id.org/afy/PropertyOfElement
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ssn/Property> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/Resource> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/StructuralElement> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasSubject> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/propertyOf> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/afy/StructuralElement> .
+<https://w3id.org/afy/PropertyOfElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/afy/Term> .
+# 
+# https://w3id.org/afy/RelationshipBetweenElements
+<https://w3id.org/afy/RelationshipBetweenElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/RelationshipBetweenElements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/PropertyOfElement> .
+<https://w3id.org/afy/RelationshipBetweenElements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/StructuralElement> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasObject> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/RelationshipBetweenElements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/inRelationshipWith> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://w3id.org/afy/Resource
+<https://w3id.org/afy/Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/Term> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/type> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://w3id.org/afy/SimpleElement
+<https://w3id.org/afy/SimpleElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/SimpleElement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid18 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/afy/CompositeElement> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/afy/StructuralElement> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/afy/SimpleElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/StructuralElement> .
+# 
+# https://w3id.org/afy/StructuralElement
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/Resource> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/StructuralElement> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasElement> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/PropertyOfElement> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasProperty> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/afy/RelationshipBetweenElements> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/afy/hasRelationship> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/afy/Term> .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#comment> "StructuralElement est l'ensemble de toutes entités présentent au sein d'une structure agroforestiére."@fr .
+<https://w3id.org/afy/StructuralElement> <http://www.w3.org/2000/01/rdf-schema#comment> "StructuralElement is the set of all entities present within an agroforestry structure."@en .
+# 
+# https://w3id.org/afy/Term
+<https://w3id.org/afy/Term> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/afy/Term> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/afy/Term> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/afy/Resource> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

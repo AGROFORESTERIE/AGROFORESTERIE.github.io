@@ -1,0 +1,964 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "fr", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/ns/ssn", "http://schema.org", "http://purl.obolibrary.org/obo", "https://w3id.org/afy", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/sosa", "http://xmlns.com/foaf/0.1", "http://www.opengis.net/ont/geosparql", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "en" : "AFY"
+    },
+    "iri" : "https://w3id.org/afy",
+    "version" : "1.0.0",
+    "author" : [ "_:genid2147483649", "_:genid2147483648", "_:genid2147483650" ],
+    "description" : {
+      "en" : "Ontology of agroforestry systems",
+      "fr" : "Ontologie des systèmes agroforestiers"
+    },
+    "labels" : {
+      "undefined" : "Ontology of agroforestry systems"
+    },
+    "comments" : {
+      "en" : "An ontology designed to define the different types of agroforestry systems..",
+      "fr" : "Une ontologie conçue pour définir les différents types d'aménagements agroforestiers."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483650",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483649",
+        "type" : "label"
+      } ],
+      "funding" : [ {
+        "identifier" : "funding",
+        "language" : "undefined",
+        "value" : "https://www.fondationdefrance.org/fr/",
+        "type" : "iri"
+      } ],
+      "citation" : [ {
+        "identifier" : "citation",
+        "language" : "en",
+        "value" : "Cite this vocabulary as: Raphaël Conde Salazar , Isabelle Mougenot , Alexia Stokes; ; DOI: XXXXXXXXXXXXXXXXX",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "en",
+        "value" : "October 5th, 2021",
+        "type" : "label"
+      }, {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "\"2021-10-05\"^^xsd:date",
+        "type" : "label"
+      }, {
+        "identifier" : "created",
+        "language" : "fr",
+        "value" : "Le 5 Octobre 2021",
+        "type" : "label"
+      } ],
+      "rdfxmlSerialization" : [ {
+        "identifier" : "rdfxmlSerialization",
+        "language" : "undefined",
+        "value" : "https://w3id.org/afy/ontology.xml",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "In order for a semantic system dedicated to agroforestry developments to be shared by all agroforestry stakeholders, and even by stakeholders in other fields given the systemic nature of agroforestry, it seems essential to maintain a high level of generality in the definition of the ontology. The vision adopted is as follows: an agroforestry plot evolves over time and space and has biotic and abiotic sub-parts, which are considered as simple or decomposable elements with intrinsic properties (specific characteristics) that form interrelationships of various kinds. We were particularly interested in the spatial relationships that underlie the different developments specific to each plot. Every element, property or relationship in the ontology can potentially be enriched by one or more terms/concepts from terminological ontologies. These terms, used to describe each element of an agroforestry arrangement, as well as their properties and interrelationships, involve either the reuse of existing terminological ontologies.",
+        "type" : "label"
+      }, {
+        "identifier" : "abstract",
+        "language" : "fr",
+        "value" : "Pour qu’un système sémantique, dédié aux aménagements agroforestiers, soit partagé par l’ensemble des acteurs de l’agroforesterie, voire par les acteurs d’autres domaines si l’on considère la nature systémique de l’agroforesterie, il semble essentiel de maintenir un haut niveau de généricité dans la définition de l’ontologie. La vision retenue est la suivante : une parcelle agroforestière évolue dans le temps et dans l’espace, et a pour sous-parties, des éléments biotiques et abiotiques, qui sont envisagés comme des éléments simples ou décomposables, qui possèdent des propriétés intrinsèques (caractéristiques propres), et qui nouent des interrelations de différentes natures. Nous nous sommes intéressés en particulier, aux relations spatiales qui sous-tendent les différents aménagements propres à chaque parcelle.Tout élément, propriété ou relation de l’ontologie est potentiellement enrichi par un ou plusieurs termes/concepts issus d’ontologies terminologiques. Ces termes utilisés pour qualifier chaque élément d’un aménagement agroforestier, ainsi que leurs propriétés et leurs inter-relations, impliquent soit la réutilisation d’ontologies terminologiques existantes.",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "AFY",
+        "type" : "label"
+      } ],
+      "fundedBy" : [ {
+        "identifier" : "fundedBy",
+        "language" : "undefined",
+        "value" : "https://www.fondationdefrance.org/fr/",
+        "type" : "iri"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "en",
+        "value" : "afy",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/afy",
+        "type" : "label"
+      } ],
+      "introduction" : [ {
+        "identifier" : "introduction",
+        "language" : "fr",
+        "value" : "Nous souhaitons proposer un modèle de connaissances qui fournira un cadre unificateur pour structurer les données et les connaissances \n\t\ten agroforesterie, simplifiant ainsi la construction de bases de connaissances dans ce domaine.\n\t\tLes données issues des observations jouent un rôle clé dans la compréhension des mécanismes régissant les systèmes agroforestiers et peuvent également établir leur\n\t\tjustification par comparaison avec les systèmes agricoles d'une part, et les systèmes forestiers d'autre part.\n\t\tL'objectif est donc également de pouvoir mettre en commun les informations provenant de plusieurs bases de connaissances construites à partir de systèmes agroforestiers\n\t\tde même type ou de types différents.",
+        "type" : "label"
+      }, {
+        "identifier" : "introduction",
+        "language" : "en",
+        "value" : "We wish to propose a knowledge model that will provide a unifying framework for structuring agroforestry data and knowledge,\n\t\tthereby simplifying the construction of knowledge bases in this field.\n\t\tData from observations play a key role in understanding the mechanisms governing agroforestry systems and can also establish their justification by comparison\n\t\twith agricultural systems on the one hand and forestry systems on the other.\n\t\tThe aim is therefore also to be able to pool information from several knowledge bases built from agroforestry systems of the same or different types.",
+        "type" : "label"
+      } ],
+      "doi" : [ {
+        "identifier" : "doi",
+        "language" : "undefined",
+        "value" : "https://doi.org/XXXXXXXXXXXXXXXX",
+        "type" : "iri"
+      } ],
+      "status" : [ {
+        "identifier" : "status",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/status/draft",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/afy/CompositeElement",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompositeElement"
+    },
+    "intersection" : [ "5" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://schema.org/Person",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ContainerMembershipProperty",
+      "undefined" : "ContainerMembershipProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of container membership properties, rdf:_1, rdf:_2, ..., all of which are sub-properties of 'member'."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Container",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Container",
+      "undefined" : "Container"
+    },
+    "comment" : {
+      "undefined" : "The class of RDF containers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Datatype",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Datatype",
+      "undefined" : "Datatype"
+    },
+    "comment" : {
+      "undefined" : "The class of RDF datatypes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/afy/Term",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Term"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "2", "25" ]
+  }, {
+    "iri" : "https://w3id.org/afy/Resource",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "subClasses" : [ "5", "24", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "8",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.opengis.net/ont/geosparql#Feature",
+    "baseIri" : "http://www.opengis.net/ont/geosparql",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feature"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000002",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BFO_0000002",
+      "en" : "continuant",
+      "fr" : "continuant"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/afy/RelationshipBetweenElements",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RelationshipBetweenElements"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/sosa/FeatureOfInterest",
+    "baseIri" : "http://www.w3.org/ns/sosa",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FeatureOfInterest"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/ns/ssn/Property",
+    "baseIri" : "http://www.w3.org/ns/ssn",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "24" ],
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/afy/StructuralElement",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructuralElement"
+    },
+    "subClasses" : [ "31", "4" ],
+    "comment" : {
+      "en" : "StructuralElement is the set of all entities present within an agroforestry structure.",
+      "fr" : "StructuralElement est l'ensemble de toutes entités présentent au sein d'une structure agroforestiére."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "39", "37", "29", "25" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Class",
+      "undefined" : "Class"
+    },
+    "subClasses" : [ "17" ],
+    "comment" : {
+      "undefined" : "The class of classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    },
+    "comment" : {
+      "undefined" : "The class of literal values, eg. textual strings and integers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/afy/PropertyOfElement",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PropertyOfElement"
+    },
+    "subClasses" : [ "23" ],
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "25", "27" ]
+  }, {
+    "iri" : "https://w3id.org/afy/SimpleElement",
+    "baseIri" : "https://w3id.org/afy",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SimpleElement"
+    },
+    "intersection" : [ "5" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "31",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Resource",
+      "undefined" : "Resource"
+    },
+    "subClasses" : [ "12", "10", "15" ],
+    "comment" : {
+      "undefined" : "The class resource, everything."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "45",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "46",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "49",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#member",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "member",
+      "undefined" : "member"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A member of the subject resource."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/afy/propertyOf",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "propertyOf"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "12",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "27",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "29",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "5",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "25",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://w3id.org/afy/hasRelationship",
+    "inverse" : "34",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasRelationship"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "37",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "39",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/afy/hasProperty",
+    "inverse" : "7",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasProperty"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
+  }, {
+    "range" : "25",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "3",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/afy/hasSubject",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasSubject"
+    },
+    "domain" : "24",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/afy/hasObject",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasObject"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://purl.org/dc/terms/type",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "25",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/afy/hasRelationship",
+    "inverse" : "34",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasRelationship"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/afy/hasProperty",
+    "inverse" : "7",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasProperty"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/afy/hasElement",
+    "inverse" : "50",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "49"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "31",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/afy/hasElement",
+    "inverse" : "50",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "range" : "5",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/afy/elementOf",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "elementOf"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/afy/inRelationshipWith",
+    "baseIri" : "https://w3id.org/afy",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "inRelationshipWith"
+    },
+    "minCardinality" : "1",
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subClassOf",
+      "undefined" : "subClassOf"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "The subject is a subclass of a class."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subPropertyOf",
+      "undefined" : "subPropertyOf"
+    },
+    "domain" : "19",
+    "comment" : {
+      "undefined" : "The subject is a subproperty of a property."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#range",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "range",
+      "undefined" : "range"
+    },
+    "domain" : "19",
+    "comment" : {
+      "undefined" : "A range of the subject property."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#domain",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "12",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "domain",
+      "undefined" : "domain"
+    },
+    "domain" : "19",
+    "comment" : {
+      "undefined" : "A domain of the subject property."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  } ]
+}
